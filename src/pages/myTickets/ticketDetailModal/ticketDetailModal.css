@@ -1,0 +1,196 @@
+#contained-modal-title-vcenter{
+    background: url('/ticket-detail.jpg');
+    margin: 0px;
+    width: 100% !important;
+    height: 250px;
+    background-size: cover;
+    background-clip: border-box;
+    position: relative;
+}
+
+.detail-header{
+    max-height: 250px !important;
+}
+
+.close-detail{
+    position: absolute;
+    right: 12px;
+    top: 12px;
+    color: gray;
+    font-size: 17px;
+    z-index: 9999;
+}
+
+.close-detail:hover{
+    cursor: pointer !important;
+}
+
+#contained-modal-title-vcenter #ticket-number{
+    text-align: center;
+    height: 250px;
+    align-content: center;
+    align-self: center;
+    padding: 90px 5px;
+    line-height: 0px;
+}
+
+#ticket-number h4{
+    color: white;
+    font-size: 55px;
+    font-weight: 700;
+    font-family: 'HelveticaNeue-Heavy_22619';
+}
+
+#ticket-number span{
+    font-size: 14px;
+    color: #708caa;
+    font-weight: 100;
+    font-family: 'HelveticaNeue Medium';
+}
+
+/*
+==============================
+        Right Side Details
+==============================
+*/
+
+.subject-details-wrapper{
+    padding: 25px 45px 25px 0px;
+}
+
+.subject-details-wrapper .sub{
+    line-height: 21px;
+    margin-bottom: 12px;
+}
+
+.subject-details-wrapper .sub .label{
+    color: #b3bbc1;
+    display: block;
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 0px !important;
+    font-family: 'Helvetica';
+}
+
+.subject-details-wrapper .status .label{
+    color: white;
+    opacity: 1;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Helvetica';
+}
+
+.subject-details-wrapper .sub .span{
+    color: white;
+    font-size: 15px;
+   
+}
+
+.subject-details-wrapper .status .status-style{
+    font-size: 10px;
+    text-transform: uppercase;
+    background-color: #a0d69e;
+    color: white;
+    border-radius: 50px;
+    padding: 2px 16px !important;
+}
+
+.subject-details-wrapper .sub .service-category-subcat{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.subject-details-wrapper .sub .service-category-subcat span{
+    color: white;
+    font-size: 15px !important;
+    font-weight: 200;
+    font-family: sans-serif;
+}
+
+.subject-details-wrapper .sub .withdraw-ticket-btn{
+    border: none;
+    text-transform: uppercase;
+    color: #fe004e;
+    text-decoration: underline;
+    background: none;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Helvetica';
+}
+
+.subject-details-wrapper .sub .withdraw-ticket-btn:active,
+.subject-details-wrapper .sub .withdraw-ticket-btn:focus{
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.ticket-detail-body{
+    background-color: whitesmoke;
+    margin-top: -18px;
+    margin-bottom: -15px !important;
+    padding: 14px 0px;
+}
+
+/*
+
+=======================================
+                Medias
+======================================
+
+*/
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+
+    #ticket-number{
+        padding: 95px 5px;
+    }
+    
+    #ticket-number h4{
+        font-size: 35px;
+    }
+    
+    #ticket-number span{
+        font-size: 12px;
+    }   
+
+
+    .subject-details-wrapper{
+        padding: 20px 25px 25px 0px;
+    }
+    
+    .subject-details-wrapper .sub{
+        line-height: 18px;
+        margin-bottom: 12px;
+    }
+
+    .subject-details-wrapper .sub .service-category-subcat span{
+        font-size: 13px !important;
+    }
+
+    .subject-details-wrapper .sub .withdraw-ticket-btn{
+        border: none;
+        text-transform: uppercase;
+        color: red;
+        text-decoration: underline;
+        background: none;
+        font-size: 13px;
+        font-weight: 500;
+        font-family: sans-serif;
+    }
+
+}
+
+@media screen and (max-width: 767px){
+
+    #contained-modal-title-vcenter{
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }   
+
+    .subject-details-wrapper{
+        padding: 0px 12px 5px 20px;
+    }
+
+}

@@ -1,0 +1,124 @@
+#main-wrapper-my-tickets-homepage{
+    background-color: white;
+}
+
+#main-wrapper-my-tickets-homepage .box-shadow{
+    box-shadow: 1px 1px 8px rgba(0,0,0,.1);
+    border-radius: 8px;
+    background-color: white;
+    padding: 10px 0px 0px 0px;
+}
+
+.card-left{
+    padding: 50px 5px 40px 60px !important;
+}
+
+.card-right{
+    padding: 50px 65px 40px 30px !important;
+}
+
+
+/*
+===========================================
+                My Tickets
+===========================================
+*/
+
+#main-wrapper-my-tickets-homepage .box-shadow #heading-my-tic{
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #374557;
+    font-weight: bold;
+    font-family: 'helvetica medium';
+}
+
+#main-wrapper-my-tickets-homepage .box-shadow #view-all{
+    font-size: 14px;
+}
+
+#main-wrapper-my-tickets-homepage .box-shadow #view-all:hover,
+#main-wrapper-my-tickets-homepage .box-shadow #view-all:active{
+    text-decoration: none;
+    color: coral;
+}
+
+#main-wrapper-my-tickets-homepage .subject{
+    color: black;
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 0px !important;
+}
+
+#main-wrapper-my-tickets-homepage .text{
+    color: gray;
+    font-size: 11px;
+    margin-bottom: 0px !important;
+}
+
+#main-wrapper-my-tickets-homepage .pending{
+    font-size: 10px;
+    text-transform: uppercase;
+    background-color: orange;
+    color: white;
+    border-radius: 50px;
+    padding: 2px 20px;
+    margin-bottom: 0px !important;
+}
+
+#main-wrapper-my-tickets-homepage .approved{
+    font-size: 10px;
+    text-transform: uppercase;
+    background-color: #a0d69e;
+    color: white;
+    border-radius: 50px;
+    padding: 2px 16px;
+    margin-bottom: 0px !important;
+}
+
+#main-wrapper-my-tickets-homepage .closed{
+    font-size: 10px;
+    text-transform: uppercase;
+    background-color: salmon;
+    color: white;
+    border-radius: 50px;
+    padding: 2px 23px;
+    margin-bottom: 0px !important;
+}
+
+#main-wrapper-my-tickets-homepage .ticketHash{
+    color: black;
+    opacity: .5;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 0px !important;
+}
+
+/*
+===============================
+        Medias
+===============================
+*/
+
+@media screen and (max-width: 767px){
+
+    .details-heading #details-heading-inner{
+        display: none;
+    }
+
+    .card-left{
+        padding: 30px 15px 10px 15px !important;
+    }
+
+    .card-right{
+        padding: 10px 15px 15px 15px !important;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+    
+    #details-heading-inner .assign-tag{
+        margin-left: -5px !important;
+    }    
+  
+}

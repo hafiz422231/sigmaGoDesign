@@ -1,0 +1,92 @@
+.details-wrapper{
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 1px 1px 4px rgba(0,0,0,.2);
+    margin-right: 34px;
+    height: 450px;
+    position: relative;
+    padding: 15px 25px 15px 5px;
+}
+
+.details-wrapper p {
+    color: black;
+    opacity: .4;
+    font-size: 13px;
+}
+
+#para span{
+    font-size: 12px;
+}
+
+.details-bottom-btns{
+    position: absolute;
+    bottom: 12px;
+    right: 12px;
+}
+
+.details-bottom-btns .deny-btn{
+    border: none;
+    border-radius: 50px;
+    font-size: 10px;
+    padding: 4px 40px;
+    background-color: brown;
+    color: white;
+    text-transform: uppercase;
+    box-shadow: 1px 1px 8px rgba(165,42,42,.6);
+}
+
+.details-bottom-btns .approve-btn{
+    border: none;
+    border-radius: 50px;
+    font-size: 10px;
+    padding: 4px 32px;
+    background-color: green;
+    color: white;
+    text-transform: uppercase;
+    margin-left: 10px;
+    box-shadow: 1px 1px 8px rgba(0,128,0,.6);
+}
+
+.details-bottom-btns .approve-btn:active,
+.details-bottom-btns .deny-btn:active,
+.details-bottom-btns .approve-btn:focus,
+.details-bottom-btns .deny-btn:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+/*
+
+=================================
+            Medias
+=================================
+
+*/
+
+@media screen and (max-width: 991px){
+
+    .details-wrapper{
+        margin-top: 15px;
+        margin-right: 0px !important;
+    }
+
+}
+
+@media screen and (max-width: 360px){
+
+    .details-wrapper{
+        height: 580px;
+    }
+
+    .details-bottom-btns{
+        bottom: 12px;
+        left: 12px;
+    }    
+
+    .details-bottom-btns .deny-btn,
+    .details-bottom-btns .approve-btn{
+        width: 100%;
+        margin: 5px 0px !important;
+    }
+
+}

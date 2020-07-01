@@ -1,0 +1,308 @@
+/*
+========================
+Leftt Side
+========================
+*/
+
+.NavBar-Top{
+    background-color: transparent;
+    position: absolute !important;
+    padding: 0px 60px !important;
+}
+
+.main-logo{
+    width: 32px !important;
+    height: 32px !important;
+    background: transparent;
+    margin-top: 9px;
+}
+
+#sigmGo{
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: -6px;
+    font-family: 'Century gothic';
+}
+
+
+.justify-content-start .left-nav-item:first-of-type{
+    margin-left: 45px !important;
+}
+
+
+.justify-content-start .left-nav-item{
+    margin: 11px 20px;
+}
+
+.justify-content-start .left-nav-item .item{
+    color: #96a4b1;
+    font-family: 'HelveticaNeue Medium';
+}
+
+.justify-content-start .left-nav-item .active{
+    color: white;
+    font-family: 'HelveticaNeue Medium';
+    text-decoration: none;
+    padding-bottom: 5px;
+    border-bottom: 2px solid whitesmoke;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.justify-content-start .left-nav-item .item:hover,
+.justify-content-start .left-nav-item .item:active,
+.justify-content-start .left-nav-item .item:focus{
+    text-decoration: none;
+    color: white;
+    
+}
+
+
+
+
+/*
+========================
+Right Side
+========================
+*/
+
+.justify-content-end{
+    margin-top: 11px;
+}
+
+.create-ticket-btn{
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 50px;
+    color: white;
+}
+
+.create-ticket-btn:active,
+.create-ticket-btn:focus,
+.create-ticket-btn:hover{
+    outline: none;
+    box-shadow: none;
+}
+
+.input-group{
+    border: none;
+    box-shadow: none;
+    outline: none;
+}
+
+.input-group-prepend{
+    border: none;
+}
+
+.input-group-prepend button{
+    color: white;
+    margin-top: -6px;
+    border: none !important;
+    font-size: 12px;
+    margin-top: 0px;
+    font-weight: 700;
+}
+
+.input-group-prepend button:last-of-type{
+    margin-left: -14px !important;
+}
+
+.input-group-prepend button:hover,
+.input-group-prepend button:active,
+.input-group-prepend button:focus{
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    color: white;
+}
+
+.faBell{
+    fill: white;
+    opacity: .5;
+    font-size: 22px;
+}
+
+.badge{
+    background: red !important;
+    width: 7px !important;
+    height: 7px !important;
+    border-radius: 50% !important;
+    display: block !important;
+    position: absolute;
+    padding: 0px !important;
+    top: 4px;
+    right: 3px;
+}
+
+.avatar{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.person-name{
+    color: white;
+    margin-top: 3px;
+    font-size: 14px;
+    margin-right: 15px;
+    font-family: sans-serif;
+    font-weight: 500;    
+}
+
+.name .dropdown-toggle{
+    margin-top: -10px !important;
+}
+
+
+/*
+================================
+        Mobile NavBar
+================================
+*/
+
+#mobile-nav{
+    display: none;
+    border-radius: 6px;
+}
+
+#mobile-nav .showmenu{ display: block; }
+
+.mobile-nav-container{
+    background-color: white;
+    opacity: .6;
+    width: 330px;
+    height: 255px;
+    position: absolute;
+    left: 0px;
+    top: -10px;
+    transition: all 3s ease-in-out;
+    z-index: 200;
+    animation: sidenav 2s linear alternate;
+    padding: 20px 15px;
+    display: none;
+    border-radius: 0px 6px 6px 0px;
+}
+
+.mobile-nav-container .close-navbar{
+    color: black;
+    font-size: 25px;
+    right: 20px;
+}
+
+.mobile-nav-container .close-navbar:hover{
+    cursor: pointer;
+}
+
+#mobile-nav .mobile-nav-container ul.nav .nav-item{
+    text-align: start;
+}
+
+#mobile-nav .mobile-nav-container ul.nav .nav-item .nav-link{
+    color: black;
+}
+
+#mobile-nav .mobile-nav-container ul.nav .nav-item .nav-link:hover,
+#mobile-nav .mobile-nav-container ul.nav .nav-item .nav-link:active,
+#mobile-nav .mobile-nav-container ul.nav .nav-item .nav-link:focus,
+#mobile-nav .mobile-nav-container ul.nav .nav-item .nav-link:target{
+
+    opacity: 1;
+    color: white;
+    background-color: #0a3a60;
+    transition: all .7s;
+    border-radius: 6px;
+    border-bottom: 2px solid white;
+
+}
+
+
+
+@keyframes sidenav {
+    0% {
+      width: 0px;
+    }
+    100% {
+      width: 330px;
+    }
+}
+
+@keyframes sidenavright {
+    0% {
+      width: 330px;
+    }
+    100% {
+      width: 0px;
+    }
+}
+
+
+/*
+================================
+        Medias
+================================
+*/
+
+@media screen and (max-width: 1455px){
+
+    .left-nav-item{
+        display: none !important;
+    }
+
+    #mobile-nav{
+        display: block;
+    }
+
+    #mobile-nav .align-justify{
+        color: white;
+        margin-left: 15px;
+        margin-top: 7px;
+        font-size: 30px;
+        z-index: 9999;
+    }
+
+    #mobile-nav .align-justify:hover{
+        cursor: pointer;
+        transform: scale(1.1);
+        transition: all .7s ease-in-out;
+    }
+
+}
+
+@media screen and (max-width: 767px){
+
+    .NavBar-Top{
+        padding: 0px 20px 0px 50px !important;
+    }    
+
+    #right-nav-item{
+        display: none;
+    }
+
+    #mobile-nav{
+        position: absolute;
+        left: 5px;
+        top: 10px;
+    }
+
+}
+
+@media screen and (max-width: 480px){
+
+    #sigmGo{
+        margin-top: 5px;
+        font-size: 20px;
+    }
+
+    #mobile-nav .align-justify{
+        font-size: 22px;
+    }
+
+    .main-logo{
+        width: 24px !important;
+        height: 24px !important;
+        background: transparent;
+        margin-top: 9px;
+    }
+
+}

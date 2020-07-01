@@ -1,0 +1,113 @@
+.Header{
+    background: linear-gradient(to right bottom, rgba(22, 68, 104, .7), rgba(22, 68, 104, .7)), url('/navbar-background.jpg');
+    background-size: cover;
+    background-position: top;
+    background-clip: border-box;
+    height: 300px;
+    position: relative;
+    padding: 0px !important;
+    padding-top: 10px !important;
+}
+
+.search-bar{ 
+    position: absolute; 
+    width: 100%; 
+    text-align: center;
+    z-index: 16; 
+    margin-top: 80px;
+}
+
+.search-bar #welcome-text{
+    color: white;
+    font-family: cursive;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.search-bar .input-group{
+    width: 40%;
+    margin: 0px auto;
+}
+
+.search-bar .input-group-prepend button{
+    color: #0a3a60;
+    text-align: center;
+    font-size: 12px;
+    background-color: white;
+    font-weight: 500;
+    border: 1px solid white;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    box-shadow: none;
+}
+
+.search-bar .input-group input{
+    background-color: #3e5e77;
+    opacity: 0.8;
+    box-shadow: none;
+    outline: none;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    padding: 18px 20px;
+    color: white;
+    font-size: 14px;
+}
+
+.search-bar .input-group input::placeholder{
+    color: white;
+}
+
+.search-bar .input-group input:active,
+.search-bar .input-group input:focus{
+    box-shadow: none;
+    outline: none;
+    border: 1px solid white;
+}
+
+
+
+/*
+=======================================
+        Responsive Ness
+=======================================
+*/
+
+@media screen and (max-width: 1215px){
+    
+    .container-fluid{
+        height: 290px;
+    }
+        
+}
+
+@media screen and (max-width: 767px){
+    .search-bar .input-group{
+        width: 70%;
+    }    
+}
+
+@media screen and (max-width: 650px){
+    .container-fluid{
+        height: 300px;
+    }
+    .search-bar #welcome-text{
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .container-fluid{
+        height: 320px;
+    }
+    .search-bar .input-group{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 368px){
+    
+    .search-bar .input-group{
+        width: 85%;
+    }
+
+}

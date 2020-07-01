@@ -1,0 +1,158 @@
+.upper-links{
+    color: black;
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 3px;
+}
+
+.upper-links:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.icon{
+    color: white;
+    padding: 4px;
+    border-radius: 50%;
+    font-size: 28px;
+    margin-bottom: 10px;
+    margin-right: 30px;
+}
+
+.side-top-container{
+    padding: 20px 26px !important;
+    background-color: white;
+}
+
+.side-top-container .text-quick-links{
+    color: 374557;
+    font-family: 'HelveticaNeue Medium';
+    opacity: .6;
+}
+
+.box{
+    box-shadow: 1px 1px 8px rgba(0,0,0,.2);
+    border-radius: 8px;
+    background-color: white;
+}
+
+.side-bottom-container{
+    padding: 20px 26px !important;
+}
+
+.side-bottom-container .text-helpful-articles{
+    color: #374557;
+    font-family: 'HelveticaNeue-Heavy_22619';
+    font-weight: bolder;
+}
+
+.side-bottom-container .d-flex  h6{
+    margin-bottom: 3px;
+    font-family: 'HelveticaNeue Medium';
+    opacity: .6;
+}
+
+.side-bottom-container .d-flex p{
+    color: #a5a9af;
+    margin: 0px 0px !important;
+    font-size: 12px;
+    font-family: 'Helvetica';
+}
+
+.side-bottom-container .d-flex p .link:hover{
+    text-decoration: none;
+}
+
+.chevron{
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    color: gray;
+}
+
+
+/*
+=========================================
+                Medias
+=========================================
+*/
+
+@media screen and (max-width: 480px){
+
+    .side-top-container{
+        padding: 15px 5px !important;
+    }
+
+    .upper-links{
+        font-size: 13px;
+    }
+    
+    .icon{
+        padding: 5px;
+        font-size: 26px;
+        margin-right: 20px;
+    }
+
+    .side-bottom-container{
+        padding: 15px 6px !important;
+    }   
+
+    .side-bottom-container .d-flex  h6{
+        margin-bottom: 3px;
+        font-size: 14px;
+    }
+    
+    .side-bottom-container .d-flex p{
+        font-size: 12px;
+        padding-right: 16px !important;
+    }
+
+    .chevron{
+        font-size: 12px;
+        position: absolute;
+        top: 18px;
+        right: 0px;
+        color: gray;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1230px){
+
+    .side-top-container{
+        padding: 15px 5px !important;
+    }
+
+    .upper-links{
+        font-size: 13px;
+    }
+    
+    .icon{
+        padding: 5px;
+        font-size: 26px;
+        margin-right: 20px;
+    }
+
+    .side-bottom-container{
+        padding: 15px 6px !important;
+    }   
+
+    .side-bottom-container .d-flex  h6{
+        margin-bottom: 3px;
+        font-size: 14px;
+    }
+    
+    .side-bottom-container .d-flex p{
+        font-size: 12px;
+        padding-right: 16px !important;
+    }
+
+    .chevron{
+        font-size: 12px;
+        position: absolute;
+        top: 18px;
+        right: 0px;
+        color: gray;
+    }
+
+}

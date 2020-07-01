@@ -1,0 +1,98 @@
+.attachments-wrapper-left{
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 1px 1px 4px rgba(0,0,0,.2);
+    margin-left: 34px;
+}
+
+.attachments-wrapper-left .descrip{
+    margin-top: 40px;
+}
+
+.attachments-wrapper-left .descrip span{
+    color: black;
+    opacity: .4;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+.attachments-wrapper-left .descrip p{
+    font-size: 11px;
+    color: black;
+    margin-top: 12px;
+    line-height: 15px;
+    text-transform: capitalize !important;
+    font-weight: 400;
+}
+
+.attachments-wrapper-left .add-attachment{
+    width: 100%;
+    text-align: center;
+    border: none;
+    background-color: #0a3a60;
+    color: white;
+    padding: 10px 3px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    box-shadow: 1px 1px 10px rgba(0,0,0,.3);
+}
+
+.attachments-wrapper-left .add-attachment:active,
+.attachments-wrapper-left .add-attachment:focus{
+    outline: none;
+    border: none;
+}
+
+.attachments-wrapper-left .attachment-icon{
+    font-size: 13px;
+    margin-top: -4px;
+    margin-right: 5px;
+}
+
+/*========== selectedImages ================*/
+.selectedImages{
+    margin-left: 0px;
+    margin-right: 10px;
+}
+
+.selectedImages img{
+    border-radius: 8px;
+    width: 85px;
+    height: 75px;
+}
+
+.selectedImages span{
+    font-size: 14px;
+    display:inline-block;
+    width:75px;
+    overflow:hidden !important;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: center;
+}
+
+/*
+
+=================================
+            Medias
+=================================
+
+*/
+
+@media screen and (max-width: 991px){
+
+    .attachments-wrapper-left{
+        margin-top: 5px;
+        margin-left: 0px !important;
+    }
+
+}
+
+@media screen and (max-width: 360px){
+    .selectedImages img{
+        margin-top: 12px;
+        width: 100px;
+        height: 85px;
+    }
+}

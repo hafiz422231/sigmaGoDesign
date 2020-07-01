@@ -1,0 +1,111 @@
+.comments-wrapper{
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 1px 1px 4px rgba(0,0,0,.2);
+    /*padding: 10px 30px 0px 20px;*/
+    margin-right: 34px;
+}
+
+.comments-wrapper p {
+    color: black;
+    opacity: .4;
+    font-size: 13px;
+}
+
+#comments-design{
+    line-height: 15px;
+}
+
+.commentor-img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.comments-wrapper .comment{
+    width: 100%;
+    display: block;
+}
+
+.comment-name-date span{
+    font-size: 11px;
+    font-family: sans-serif;
+    line-height: 13px;
+    color: black;
+}
+
+.comment-name-date .name-date{
+    color: black;
+    opacity: .4;
+}
+
+.comment-input-wrapper{
+    margin-top: 30px;
+    background-color: #0a3a60;
+    padding: 16px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.comment-input-wrapper input{
+    border-radius: 50px;
+    border: none;
+    font-size: 12px;
+    padding: 4px 20px 6px 20px;
+    width: 100%;
+}
+
+.comment-input-wrapper input:hover,
+.comment-input-wrapper input:active,
+.comment-input-wrapper input:focus{
+    border: none;
+    box-shadow: none;
+    outline: none;
+}
+
+.paper-plane{
+    background-color: white;
+    color: #0a3a60;
+    padding: 1px 7px 2px 5px;
+    border-radius: 50%;
+    font-size: 27px;
+}
+
+.paper-plane:hover{
+    cursor: pointer;
+}
+
+
+
+/*
+
+=================================
+            Medias
+=================================
+
+*/
+
+@media screen and (max-width: 991px){
+
+    .comments-wrapper{
+        margin-top: 15px;
+        margin-right: 0px !important;
+    }
+
+}
+
+@media screen and (min-width: 991px) and (max-width: 1199px){
+
+    .comment-input-wrapper input{
+        width: 98%;
+    }
+
+    .paper-plane{
+        margin-right: 30px !important;
+        position: absolute !important;
+        right: -35px;
+    }
+
+}
+

@@ -1,0 +1,93 @@
+.bottom-text{
+    position: absolute;
+    bottom: 0px;
+    color: white;
+    width: 100%;
+    background-color: #0a3a60;
+    padding: 14px 8px 16px 8px;
+    box-shadow: 2px 2px 4px rgba(0,0,0,.6);
+    z-index: 10;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 15px 30px;
+    transform: translate3d(0, 0, 0);
+}
+
+.bottom-text #loop{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    transform: translate3d(0, 0, 0);
+    font-family: 'Helvetica';
+}
+
+.bottom-text #loop{
+    font-size: 15px;
+  transition: opacity 0.5s ease-out;
+  background-position: 0 0px;
+  animation: moveSlideshow  100s linear infinite;
+}
+
+.bottom-text #loop:hover{
+    cursor: pointer;
+}
+
+@keyframes moveSlideshow {
+    0%{ transform: translateX(0%); }
+    100% { 
+      transform: translateX(-500%);  
+    }
+  }
+
+/*
+=======================================
+        Responsive Ness
+=======================================
+*/
+
+@media screen and (max-width: 1215px){
+
+    .bottom-text{
+        padding: 14px 30px 16px 30px !important;    
+    }
+    
+}
+
+@media screen and (max-width: 368px){
+    .bottom-text{
+        font-size: 13px;
+        padding: 14px 20px 16px 20px !important;    
+    }
+}
+
+@media screen and (max-width: 991px){
+    
+    .bottom-text #loop{
+        width: 200%;
+    }  
+    
+}
+
+@media screen and (max-width: 550px){
+    
+    .bottom-text #loop{
+        width: 300%;
+    }
+
+    .bottom-text #loop{
+        animation: moveSlideshow  30s linear infinite;
+    }
+
+}
+
+@media screen and (max-width: 375px){
+    
+    .bottom-text #loop{
+        width: 400%;
+    }
+
+    .bottom-text #loop{
+        animation: moveSlideshow  30s linear infinite;
+    }
+
+}

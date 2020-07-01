@@ -1,0 +1,100 @@
+#home-chart-header{
+    margin-bottom: 15px;
+}
+
+#home-chart-header .chart {
+    padding: 10px 15px;
+    box-shadow: 1px 1px 10px rgba(0,0,0,.2);
+    border-radius: 8px;
+}
+
+#home-chart-header .chart p {
+    text-transform: uppercase;
+    color: #374557;
+    font-weight: bold;
+    font-family: 'helvetica medium';
+    font-size: 12px;
+    word-spacing: -1px;
+    margin: 0px 0px 0px 6px;
+    padding: 0px;
+    margin-bottom: -8px;
+}
+
+#home-chart-header .chart .top-head span{
+    font-size: 10px;
+    color: gray;
+    margin: 0px 0px 0px 6px;    
+    padding: 0px;
+}
+
+#home-chart-header .chart .bottom-menus span{
+    color: black;
+    font-weight: bolder;
+    font-size: 11px;
+}
+
+#home-chart-header .chart .bottom-menus p {
+    font-size: 9px;
+    color: gray;
+    font-weight: 100;
+    text-transform: capitalize;
+    margin-left: 0px;
+}
+
+
+
+#home-chart-header .chart #all-tick #color-all{
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50%;
+    background-color: #45cac7;
+    margin-top: 8px;
+    margin-right: 8px;
+    box-shadow: 1px 1px 5px rgba(69,202,199,.5);
+}
+
+
+#home-chart-header .chart #open-tick #color-open{
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50%;
+    background-color: #f72566;
+    margin-top: 8px;
+    margin-right: 8px;
+    box-shadow: 1px 1px 5px rgba(247,37,102,.5);
+}
+
+#home-chart-header .chart #pen-tick #color-pen{
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50%;
+    background-color: #faac1f;
+    margin-top: 8px;
+    margin-right: 8px;
+    box-shadow: 1px 1px 5px rgba(250,172,31,.5);
+}
+
+#home-chart-header .chart #survey-tick #color-sur{
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50%;
+    background-color: #01bcff;
+    margin-top: 8px;
+    margin-right: 8px;
+    box-shadow: 1px 1px 5px rgba(1,188,255,.5);
+}
+
+/*
+=============================
+        Medias
+=============================
+*/
+
+@media screen and (max-width: 1199px){
+    #home-chart-header .chart {
+        padding: 10px 15px;
+        box-shadow: 1px 1px 10px rgba(0,0,0,.2);
+        border-radius: 8px;
+        margin-bottom: 10px;
+    }        
+}
